@@ -1,0 +1,4 @@
+# ESP32 NodeMCU Module WLAN WiFi Dev Kit C
+SUBSYSTEM=="usb", ATTRS{idVendor}=="10c4",ATTRS{idProduct}=="ea60",ATTRS{serial}=="3201",GROUP="dialout",MODE="0660",SYMLINK+="ttyESP32-1"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="10c4",ATTRS{idProduct}=="ea60",ATTRS{serial}=="3202",GROUP="dialout",MODE="0660",SYMLINK+="ttyESP32-2"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="10c4",ATTRS{idProduct}=="ea60",ATTRS{serial}=="3203",GROUP="dialout",MODE="0660",SYMLINK+="ttyESP32-3"
